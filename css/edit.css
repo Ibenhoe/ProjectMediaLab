@@ -1,6 +1,7 @@
 #Login-page{
   border: 2px solid black;
     text-align: center;
+    margin
     
 
 }
@@ -9,5 +10,7 @@ body{
 
 }
 #gotomain{
-    font-size: large;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 5px;
 }
