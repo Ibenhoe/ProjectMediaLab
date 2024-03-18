@@ -1,16 +1,17 @@
 #Login-page{
   border: 2px solid black;
     text-align: center;
-    margin
+    margin: 0 auto;
     
 
 }
 body{
-    background-color: bisque;
+    background-color: beige;
 
 }
-#gotomain{
-    font-size: 30px;
+
+button{
+    font-size: 20px;
     border: 2px solid black;
     padding: 5px;
 }
