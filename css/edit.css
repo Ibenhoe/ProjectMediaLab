@@ -1,17 +1,21 @@
-#Login-page{
+#Login-page {
   border: 2px solid black;
-    text-align: center;
-    margin: 0 auto;
-    
-
+  text-align: center;
+  margin-top: 150px;
+ padding-left: ;
 }
-body{
-    background-color: beige;
-
+body {
+  background-color: beige;
 }
 
-button{
-    font-size: 20px;
-    border: 2px solid black;
-    padding: 5px;
+button {
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 5px;
 }
+#LoginButton {
+  margin: 5px;
+  padding: 5px;
+}
+
+
