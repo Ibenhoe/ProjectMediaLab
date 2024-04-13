@@ -3,7 +3,6 @@ body, html {
   padding: 0;
   font-family: Arial;
 }
-
 .navigatie {
   display: flex;
   justify-content: space-between;
@@ -12,14 +11,12 @@ body, html {
   padding: 1em;
   margin-bottom: 0;
 }
-
 .navigatie img {
   height: auto;
   width: 100%;
   background-color: rgb(195, 195, 195);
   border-radius: 50%;
 }
-
 .navigatie a {
   display: inline-block;
   width: 2.5em;
@@ -31,7 +28,6 @@ body, html {
 .navigatie a:hover {
   filter: brightness(80%);
 }
-
 #search {
   width: 60%;
   margin: 0 10px;
@@ -42,11 +38,9 @@ body, html {
   margin: 0px;
   font-size: large;
 }
-
 .navrechts {
   display: flex;
 }
-
 .sidebar {
   background-color: rgb(214, 214, 214);
   width: 18em;
@@ -54,12 +48,10 @@ body, html {
   padding-top: 0%;
   margin: 1em 1em 1em 1em;
 }
-
 .linkerVak {
   width: 20em;
   border-right: solid 1px black;
 }
-
 .linkerVak a {
   text-decoration: none;
   color: black;
@@ -74,21 +66,17 @@ body, html {
 .linkerVak li {
   margin-top: 2em;
 }
-
 h1 {
   background-color: antiquewhite;
   float: right;
   margin-left: 1em;
   width:100%;
 }
-
 .container {
   display: flex;
   align-items: flex-start;
 }
-
 .artikel {
   background-color: rgb(107, 107, 107);
   width: 20%;
-  
 }
