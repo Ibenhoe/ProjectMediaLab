@@ -44,7 +44,7 @@ body, html {
 .sidebar {
   background-color: rgb(214, 214, 214);
   width: 18em;
-  height: 40em;
+  height: 50em;
   padding-top: 0%;
   margin: 1em 1em 1em 1em;
 }
@@ -66,11 +66,14 @@ body, html {
 .linkerVak li {
   margin-top: 2em;
 }
-h1 {
+.titeltje h1 {
   background-color: antiquewhite;
-  float: right;
   margin-left: 1em;
-  width:100%;
+  
+}
+.titeltje {
+  background-color: aqua;
+  display:grid
 }
 .container {
   display: flex;
@@ -79,4 +82,5 @@ h1 {
 .artikel {
   background-color: rgb(107, 107, 107);
   width: 20%;
+  
 }
