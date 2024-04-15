@@ -121,6 +121,36 @@ body, html {
 }
 .kalenderDiv img {
   margin: 1em;
+  margin-bottom: 0;
   border-radius: 0.5em;
   width: 70%;
+}
+.rechterDiv p {
+  width: fit-content;
+  font-size: x-large;
+  margin-left: 1em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+.rechterDiv a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(93, 93, 255);
+  padding: 0.7em;
+  font-size: xx-large;
+  border-radius: 0.7em;
+  width: 12em;
+  text-align: center;
+}
+.knop1 {
+  display: flex;
+  justify-content: center;
+}
+.knop1:hover {
+  filter: brightness(80%);
+}
+.knop2 {
+  display: flex;
+  justify-content: center;
+  filter: brightness(60%);
 }
