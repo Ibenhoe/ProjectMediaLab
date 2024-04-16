@@ -108,3 +108,21 @@ h1 {
 .knoppenRechts {
   display: flex;
 }
+.wisKnop {
+  float: right;
+  text-decoration: none;
+  background-color: rgb(0, 106, 255);
+  color: white;
+  font-size: medium;
+  border-radius: 2em;
+  padding: 0.5em 1em 0.5em 1em;
+  margin-bottom: 8em;
+  margin-right: 8em;
+}
+.wisKnop p {
+  padding: 0;
+  margin: 0;
+}
+.wisKnop:hover {
+  filter: brightness(80%);
+}
