@@ -86,3 +86,11 @@ body, html {
   margin-top: 9em;
   
 }
+.search-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1em;
+  
+}
