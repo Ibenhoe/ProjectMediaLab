@@ -29,14 +29,14 @@ body, html {
   filter: brightness(80%);
 }
 #search {
-  width: 60%;
+  width: 25%;
   margin: 0 10px;
   background-color: rgb(214, 214, 214);
   border-style: none;
   padding: 0.6em;
   border-radius: 3em;
   margin: 0px;
-  font-size: large;
+  font-size:medium;
 }
 .navrechts {
   display: flex;
@@ -84,5 +84,13 @@ body, html {
   width: 20%;
   margin-right: 20em;
   margin-top: 9em;
+  
+}
+.search-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1em;
   
 }
