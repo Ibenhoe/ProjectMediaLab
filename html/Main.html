@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main - Ehb</title>
+
     <link rel="stylesheet" href="../css/mainPage.css">
 </head>
 <body>
@@ -16,27 +17,43 @@
         <a href="../html/Settings.html"><img src="../images/reglages.png"></a>
       </div>
     </div>
-    <div class="container">
-        <div class="linkerVak">
-            <div class="sidebar">
-                <div class="category">
-                    <ul>
-                        <li><a href="#">Fototoestellen</a></li>
-                        <li><a href="#">Videotoestellen</a></li>
-                        <li><a href="#">Microfonen</a></li>
-                        <li><a href="#">Drone's</a></li>
-                        <li><a href="#">VR & AR headsets</a></li>
-                        <li><a href="#">Verlichting</a></li>
-                        <li><a href="#">Smart toestellen</a></li>
-                        <li><a href="#">Audio</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+<div id="searh-main">
+<label for="">zoek een product</label>
+<input type="search" id="search" placeholder="zoek...">
+<select name="zoek" id="zoek-main">
+<option  selected>Alle categoriën</option>
+<OPTgroup label="Camera's">
+<option  >Fototoestellen</option>
+<option  >Videotoestellen</option>
+<option  >Drone's</option>
+</OPTgroup>
+<optgroup label="Audio & Verlichting">
+<option  >Verlichting</option>
+<option  >Audio</option>
+<option  >Microfonen</option>
+</optgroup>
+<optgroup label="Extra">
+<option  >Smart toestellen</option>
+<option  >Vr & AR headsets</option>
+</optgroup>
+
+
+</div>
+
+<select name="" id="availability">
+<option value="beschikbaar">beschikbaar</option>
+<option value="niet">niet beschikbaar</option>
+</select>
+
+
+
+
+
+</select>
+
         <h1 id="Populaire-artikelen">Populaire artikelen</h1>
-        <div class="titeltje">
-          <h1>Populaire artikelen</h1>
-        </div>
+
+      
         <div class="artikel">
           <div class="foto"><img></div>
           <div class="naamEnzo">
@@ -45,78 +62,5 @@
           </div>
         </div>
     </div>
-  </head>
-  <body>
-    <div class="container-main">
-      <a href="../html/Login.html">
-        <img src="../images/bouton-retour.png" alt="back" id="Back-button"
-      /></a>
-      <a href="../html/Cart.html">
-        <img src="../images/chariot-de-chariot.png" alt="cart" id="Cart-Icon"
-      /></a>
-      <input type="search" value="Search..." name="search" id="search" />
-      <a href="../html/Settings.html">
-        <img src="../images/reglages.png" alt="Settings" id="Settings-Icon"
-      /></a>
-      <a href="../html//Wishlist.html">
-        <img
-          src="../images/chariot-de-chariot.png"
-          alt="Wishlist"
-          id="Wishlist-Icon"
-      /></a>
-    </div>
-    <hr />
-    <div id="container-categorie">
-      <a href="">Foto toestellen</a>
-      <a href="">Film toestellen</a>
-      <a href="">Microfoon</a>
-      <a href="">Drone's</a>
-      <a href="">VR & AR hedaset</a>
-      <a href="">Verlichting</a>
-      <a href="">Smart toestellen</a>
-      <a href="">Audio</a>
-      <hr />
-    </div>
-    <h3>Populaire artikelen</h3>
-    <div class="artikelen">
-      <img src="../images/reglages.png" alt="" />
-      <p>PRODUCT 1</p>
-      <a href=""> Bekijk nu</a>
-    </div>
-    <div class="artikelen">
-      <img src="../images/reglages.png" alt="" />
-      <p>PRODUCT 1</p>
-      <a href=""> Bekijk nu</a>
-    </div>
-    <div class="artikelen">
-      <img src="../images/reglages.png" alt="" />
-      <p>PRODUCT 1</p>
-      <a href=""> Bekijk nu</a>
-    </div>
-    <div class="artikelen">
-      <img src="../images/reglages.png" alt="" />
-      <p>PRODUCT 1</p>
-      <a href=""> Bekijk nu</a>
-    </div>
-    <div class="artikelen">
-      <img src="../images/reglages.png" alt="" />
-      <p>PRODUCT 1</p>
-      <a href=""> Bekijk nu</a>
-    </div>
-    <div class="artikelen">
-      <img src="../images/reglages.png" alt="" />
-      <p>PRODUCT 1</p>
-      <a href=""> Bekijk nu</a>
-    </div>
-    <div class="artikelen">
-      <img src="../images/reglages.png" alt="" />
-      <p>PRODUCT 1</p>
-      <a href=""> Bekijk nu</a>
-    </div>
-    <div class="artikelen">
-      <img src="../images/reglages.png" alt="" />
-      <p>PRODUCT 1</p>
-      <a href=""> Bekijk nu</a>
-    </div>
-  </body>
-</html>
+
+  </html>
