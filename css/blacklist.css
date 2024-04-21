@@ -28,7 +28,6 @@ body, html {
 .navigatie a:hover {
   filter: brightness(80%);
 }
-
 .allesDiv {
   background-color: rgb(195, 195, 195);
   margin: 1em;
@@ -36,7 +35,6 @@ body, html {
   min-height: 100vh;
   padding-bottom: 2em;
   padding-top: 1em;
-  
 }
 .titel {
   background-color: white;
@@ -44,9 +42,6 @@ body, html {
   margin-left: 1em;
   padding: 0.6em;
   border-radius: 0.6em;
-}
-.lijstDiv {
-  
 }
 .naamDiv {
   display: flex;
