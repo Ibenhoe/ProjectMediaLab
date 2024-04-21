@@ -69,3 +69,11 @@ body, html {
 .naamDiv a:hover {
   filter: brightness(80%);
 }
+.zoekbalk {
+  background-color: rgb(195, 195, 195);
+  border: none;
+  font-size: larger;
+  width: 40%;
+  padding: 0.4em;
+  border-radius: 2em;
+}
