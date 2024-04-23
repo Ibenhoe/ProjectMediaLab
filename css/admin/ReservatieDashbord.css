@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: Arial;
@@ -17,7 +18,7 @@ body, html {
   background-color: rgb(195, 195, 195);
   border-radius: 50%;
 }
-.homeButton a{
+.homeButton a {
   display: inline-block;
   width: 2.5em;
   height: 2.5em;
@@ -40,33 +41,4 @@ body, html {
 .navrechts a:hover {
   background-color: rgb(195, 195, 195);
   border-radius: 0.6em;
-}
-
-#progressContainer {
-  margin: 1em;
-}
-
-#myProgress, #myProgress2 {
-  width: 40em;
-  background-color: #ddd;
-}
-
-#myBar, #myBar2 {
-  width: 0%;
-  height: 30px;
-}
-
-#myBar {
-  background-color: #4CAF50;
-}
-
-#myBar2 {
-  background-color: #FF0000;
-}
-
-#label, #label2 {
-  position: absolute;
-  left: 31em;
-  transform: translateX(-50%);
-  font-size: 20px;
 }
