@@ -1,3 +1,47 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+.navigatie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px rgb(54, 54, 54);
+  padding: 1em;
+  margin-bottom: 0;
+}
+.navigatie img {
+  height: auto;
+  width: 100%;
+  background-color: rgb(195, 195, 195);
+  border-radius: 50%;
+}
+.homeButton a {
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 1em;
+  overflow: hidden;
+  object-fit: contain;
+}
+.navigatie a:hover {
+  filter: brightness(80%);
+}
+.navrechts {
+  display: flex;
+}
+.navrechts a {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  font-size: larger;
+  color: black;
+}
+.navrechts a:hover {
+  background-color: rgb(195, 195, 195);
+  border-radius: 0.6em;
+}
 .user-info{
     display: flex;
     justify-content: flex-start;
