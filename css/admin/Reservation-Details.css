@@ -32,3 +32,8 @@
 #Status{
     margin-left: 70%;
 }
+#datum-lease{
+   border-right: 1px solid black;
+   margin-left: 3%;
+   margin-right: 90%;
+}
