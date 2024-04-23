@@ -6,7 +6,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="../../css/admin/ReservatieDashbord.css">
 </head>
-<body>
+<body onload="updateBars()">
   <div class="navigatie">
     <div class="homeButton"><a href="#"><img src="../../images/homeIcon.png"></a></div>
     <div class="navrechts">
@@ -14,6 +14,21 @@
     <a href="#"><p>Reservaties</p></a>
     <a href="#"><p>Inkomend</p></a>
     </div>
-</div>
+  </div>
+
+  <div id="progressContainer">
+  <h2>Reservaties van vandaag</h2>
+    <div id="myProgress">
+      <div id="myBar"></div>
+      <div id="label">0 / <span id="maxReservaties"></span></div>
+    </div>
+    <h2>Apparaten die vandaag terugkomen</h2>
+    <div id="myProgress2">
+      <div id="myBar2"></div>
+      <div id="label2">0 / <span id="maxTeruggebracht"></span></div>
+    </div>
+  </div>
+
+<script src="../../js/reservatieDashbord.js"></script>
 </body>
 </html>
