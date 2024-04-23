@@ -1,21 +1,34 @@
 #Login-page {
-  border: 2px solid black;
+  border: 1px solid white;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 6em;
+ margin-left: 25%;
+ margin-right: 25%;
+ background-color: rgb(251, 222, 222);
+ color: rgb(255, 81, 81);
+ border-radius: 2em;
 }
 
 body {
-  background-color: rgb(224, 224, 224);
+  background-color: white;
 }
 
 button {
   font-size: 20px;
-  border: 2px solid black;
+  border: 1px solid white;
   padding: 5px;
 }
 #LoginButton {
   margin: 5px;
   padding: 5px;
+  border-radius: 1em;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(251, 222, 222); 
+  color: rgb(255, 81, 81);
+}
+#LoginButton:hover{
+  filter: brightness(80%);
 }
 
 
@@ -23,5 +36,11 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#logo-ehb{
+  width: 13em;
+  margin-top: 7em;
+  margin-left: 45%;
 }
 
