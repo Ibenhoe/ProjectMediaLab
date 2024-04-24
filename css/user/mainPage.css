@@ -85,6 +85,8 @@ body, html {
   height: 200px;
   padding: 15px;
   margin: 50px;
+box-shadow: 3px 3px 3px 3px  rgb(80, 80, 80) ;
+border-radius: 1em;
 
 
 }
@@ -110,6 +112,7 @@ body, html {
   justify-content:space-between;
 margin-left: 15px;
 margin-right: 15px;
+
 }
 
 .button-artikel a{
