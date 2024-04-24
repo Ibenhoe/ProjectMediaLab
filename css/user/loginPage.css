@@ -5,7 +5,7 @@
  margin-left: 25%;
  margin-right: 25%;
  background-color: rgb(251, 222, 222);
- color: rgb(255, 81, 81);
+ color: #e30713;
  border-radius: 2em;
 }
 
@@ -25,7 +25,7 @@ button {
   padding-left: 10px;
   padding-right: 10px;
   background-color: rgb(251, 222, 222); 
-  color: rgb(255, 81, 81);
+  color: #e30713;
 }
 #LoginButton:hover{
   filter: brightness(80%);
