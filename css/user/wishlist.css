@@ -1,4 +1,4 @@
-body, html {
+body, html, footer {
   margin: 0;
   padding: 0;
   font-family: Arial;
@@ -125,4 +125,28 @@ h1 {
 }
 .wisKnop:hover {
   filter: brightness(80%);
+}
+footer {
+  background-color: black;
+  margin-bottom: 0;
+  color: white;
+  height: 100%;
+  padding: 1em;
+}
+.volledigeFooter {
+display: flex;
+justify-content: space-between;
+margin-top: 2em;
+}
+.footer-content {
+
+}
+.buttonstuk {
+margin-top: auto;
+margin-bottom: auto;
+
+}
+.buttonstuk  img {
+  width: 2em;
+  margin-right: 0.5em;
 }

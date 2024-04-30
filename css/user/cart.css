@@ -131,3 +131,26 @@ h1 {
   font-weight: 700;
   padding: 1em;
 }
+footer {
+  background-color: black;
+  margin-bottom: 0;
+  color: white;
+  height: 100%;
+  padding: 1em;
+}
+.volledigeFooter {
+display: flex;
+justify-content: space-between;
+}
+.footer-content {
+
+}
+.buttonstuk {
+margin-top: auto;
+margin-bottom: auto;
+
+}
+.buttonstuk  img {
+  width: 2em;
+  margin-right: 0.5em;
+}
