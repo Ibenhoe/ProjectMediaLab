@@ -1,8 +1,11 @@
-body,
-html {
+body, html, footer {
   margin: 0;
   padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 .navigatie {
   display: flex;
@@ -41,13 +44,6 @@ html {
 }
 .navrechts {
   display: flex;
-}
-.sidebar {
-  background-color: rgb(214, 214, 214);
-  width: 18em;
-  height: 50em;
-  padding-top: 0%;
-  margin: 1em 1em 1em 1em;
 }
 .linkerVak {
   width: 20em;
@@ -134,4 +130,15 @@ html {
 #Populaire-artikelen {
   margin-left: 200px;
   margin-top: 150px;
+}
+
+footer {
+  background-color: black;
+  margin-bottom: 0;
+  color: white;
+  height: 100%;
+  padding: 1em;
+}
+.footer-content {
+  height: 100%;
 }
