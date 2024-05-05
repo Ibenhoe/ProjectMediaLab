@@ -137,10 +137,12 @@ footer {
   color: white;
   height: 100%;
   padding: 1em;
+  
 }
 .volledigeFooter {
 display: flex;
 justify-content: space-between;
+
 }
 .footer-content {
 
