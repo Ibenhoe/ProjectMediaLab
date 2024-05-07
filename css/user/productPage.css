@@ -53,6 +53,8 @@ body, html {
   height: 900px;
   display: flex;
   justify-content: center;
+  
+  
 }
 .linkerDiv {
   background-color: rgb(214, 214, 214);
@@ -60,6 +62,7 @@ body, html {
   height:fit-content;
   border-radius: 1.5em;
   margin-top: 1em;
+ 
 }
 .rechterDiv {
   width: 34%;
@@ -70,6 +73,8 @@ body, html {
   margin: 1em;
   margin-right: 0;
   border-radius: 1.5em;
+padding-bottom: 150px;
+
 }
 .onderDiv {
   background-color: rgb(214, 214, 214);
@@ -107,6 +112,8 @@ body, html {
 
 .productBeschrijving {
   margin: 1em;
+  margin-bottom: 150px;
+  
 }
 .productBeschrijving p {
   font-size: large;
@@ -121,7 +128,7 @@ body, html {
 }
 .kalenderDiv img {
   margin: 1em;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   border-radius: 0.5em;
   width: 70%;
 }
@@ -178,6 +185,3 @@ margin-bottom: auto;
   margin-right: 0.5em;
 }
 
-#searchprod{
-  
-}
