@@ -22,8 +22,8 @@ body, html {
 
 .navigatie a {
   display: inline-block;
-  width: 2.5em;
-  height: 2.5em;
+  width: 3em;
+  height: 3em;
   margin-right: 10px;
   overflow: hidden;
   object-fit: contain;
