@@ -96,6 +96,8 @@ padding-bottom: 150px;
 .balkjeOnderFoto {
   display: flex;
   justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .balkjeOnderFoto p {
   font-size:x-large;
@@ -107,7 +109,7 @@ padding-bottom: 150px;
   height: 30px;
 }
 .balkjeOnderFoto a {
-  margin: 1em;
+  text-decoration: none;
 }
 
 .productBeschrijving {
@@ -172,9 +174,7 @@ footer {
 display: flex;
 justify-content: space-between;
 }
-.footer-content {
 
-}
 .buttonstuk {
 margin-top: auto;
 margin-bottom: auto;
@@ -183,5 +183,29 @@ margin-bottom: auto;
 .buttonstuk  img {
   width: 2em;
   margin-right: 0.5em;
+}
+
+
+
+.favorietenDiv {
+  display: flex;
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 1em;
+  background-color: rgb(93, 93, 255);
+  padding-right: 0.5em;
+  border-radius: 2em;
+  
+}
+.favorietenDiv p {
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  margin-right: 0;
+}
+.favorietenDiv img {
+  margin-top: 40%;
+  filter: invert();
 }
 
